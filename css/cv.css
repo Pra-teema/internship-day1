@@ -1,0 +1,271 @@
+img{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    list-style: none;
+    background-color: gray;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+li {
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    height: 50px;
+    border-bottom: 1px ;
+    width: 100px;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+   
+}
+li:hover{
+  opacity: 0.2; 
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    display: flex;
+    flex-direction: row;
+
+}
+.main{
+  display: flex;
+  height: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.prag{
+  
+  height: 500px;
+  width: 500px;
+  margin-top: 20px;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-right: auto;
+    margin-left: auto;
+    opacity:0.6;
+    border-radius: 5px;
+  }   
+.photo{
+  height:500px;
+  width: 500px;
+  margin-top: 20px;
+  transform: rotate(90deg);
+  margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+@keyframes ex {
+    from {top: 0px;}
+    to {top: 150px; }
+}
+.photo:hover,.prag:hover{
+  position: relative;
+    animation-name: ex;
+    animation-duration: 3s;    
+    animation-fill-mode: backwards;
+}
+
+/*cvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+.cvsection{
+	background-color: grey;
+}
+.cvsection h1{
+	padding:10px 500px 0px;
+	margin:0px;
+	text-align: center;
+	justify-content: space-between;
+	font-size:30px;
+	color: black;
+	font-family: 'Berkshire Swash', cursive;
+	transition: font-size 2s;
+}
+.cvsection h1: hover{
+	font-size: 40px;
+	color: red;
+}
+.cvsection img{
+	transform: rotate(90deg);
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:15%;
+	height: 200px;
+	border-radius:50% ;
+}
+
+.box1{
+	background-color:#C9C9A7;
+	display: flex;
+	flex-direction:column;}
+.box1 h2{
+	text-align:center;
+	font-size: 30px;
+	font-style: sans-serif;
+
+}
+.box1 dl{
+	background-color: pink;
+	padding: 0px 100px 20px 70px;
+}
+.box1 dl dt{
+	background-color: grey;
+	margin:2px;
+  font-size: 20px;
+	color: white;
+	list-style-type: none;width:100%;
+	padding: 0px;
+
+}	
+.box2, .box3 {
+	background-color:#C9C9A7;
+	display: flex;
+	flex-direction: column;
+}
+.box2 h2, .box3 h2{
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	font-size: 30px;
+	font-style: sans-serif;
+}
+.box2 dl ,.box3 dl{
+	background-color: pink;
+	padding:0px 100px 20px 70px;
+	}
+.box2 dt ,.box3 dt {
+	background-color: purple;
+	margin:2px;
+	color: white;
+  font-size: 20px;
+	width: 100%;
+	padding:0px;
+}
+ 
+.box3 dd ,.box1 dd ,.box2 dd{
+  background-color: green;
+  margin:2px;
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  padding:0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+/*contact*/
+body {
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  background-color:#007E7E;
+  
+}
+legend{
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: bold;
+  color:green;
+}
+.contact {
+  width : 40%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 16px/18px  sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 35px;
+  margin: 0px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 2px 2px black; /*any color you want*/
+}
+
+
+fieldset { border:1px solid green }
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 94%;
+  border: 2px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 99%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
